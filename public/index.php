@@ -11,6 +11,8 @@
 
 // [ 应用入口文件 ]
 
+// 修改配置文件位置
+define('CONF_PATH', __DIR__ . '/config/');
 // 定义应用目录
 define('APP_PATH', __DIR__ . '/../application/');
 // 加载框架引导文件
